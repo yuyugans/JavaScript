@@ -30,6 +30,7 @@ switch (hari){
     break
     default : hari = "gada"
 }
-
 alert(hari)
+
+document.writeln("tes")
 
