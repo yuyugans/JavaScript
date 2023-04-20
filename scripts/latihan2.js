@@ -57,8 +57,11 @@ console.log(arr4[3][1]) //array dalam array TF
 const mergeArr = arr.concat(arr3)
 
 console.log(mergeArr)
-
 mergeArr.map((value, index)=> console.log(index, value)) // jika ingin tau index dan value di dalam nya
 
+/*-------- copy within ------------*/
+//array.copyWithin(target, start, end) <- format
+const arr5 = ['yu', 'ye', 'yo', 'ya']
 
-
+arr5.copyWithin(2,0,1) // masih bingung penggunaan end nya
+document.write('nilai array = '+ arr5 + "<br>")
