@@ -65,3 +65,13 @@ const arr5 = ['yu', 'ye', 'yo', 'ya']
 
 arr5.copyWithin(2,0,1) // masih bingung penggunaan end nya
 document.write('nilai array = '+ arr5 + "<br>")
+
+const numbers = [1, 2, 3, 4]
+const squaredNumbers = numbers.map(num => num + 1)
+console.log(squaredNumbers)
+
+function Person(name) {
+    this.name = name
+    console.log(this)// Output: objek instance yang baru dibuat
+  }
+  const john = new Person('John')
