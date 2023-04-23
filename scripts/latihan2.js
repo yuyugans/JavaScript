@@ -76,4 +76,4 @@ function Person(name) {
   }
   const john = new Person('John')
 
- 
+document.write(numbers[1] * squaredNumbers[0])
