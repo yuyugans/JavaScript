@@ -75,3 +75,5 @@ function Person(name) {
     console.log(this)// Output: objek instance yang baru dibuat
   }
   const john = new Person('John')
+
+ 
